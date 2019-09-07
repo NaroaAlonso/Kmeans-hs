@@ -3,7 +3,7 @@ An implementation of KMeans algorithm in haskell, with a kNN-1 Classifier
 
 KMeans is a machine learning algorithm used to classify a training set into an n number of Clusters. It belongs to the group of non-supervised learning algorithms so it does not decide whether or not the chosen number of clusters is appropriate or which classifications belongs to each one. It is implemented in pure functional language Haskell.
 This implementation is designed to process CSV data files.
-Note: the only distance used in order to calculate de reach is the euclidean one. In order to use a different one, the code must be added in the KMeans.hs module.
+Note: the only distance used in order to calculate the reach is the euclidean one. In order to use a different one, the code must be added in the KMeans.hs module.
 
 ## Dependencies
 GHCI needed in order to use Haskell.
