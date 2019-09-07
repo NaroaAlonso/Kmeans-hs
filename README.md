@@ -26,7 +26,7 @@ Haskell packages used in the implementation:
 The package includes a module called KMeans.hs and the main interactive one, called Main.hs.
 KMeans.hs module includes three visible functions: kmedias (to obtain centroids using kmeans), classifyUno (classifies one only value) , classsifyLista (classifies a list of values). They all receive the training set, the number of clusters and the number of attributes, and classifyUno receives a value and classifyLista receives a list of values.
 In order to train the set, we need the function algorithm, which calls the other functions like this.
-What algorithm does is:
+What the algorithm does is:
 
 
  • Function **centrosInic**. It takes the first n points from the training set, being n the number of clusters. These are going to be the first centroids. 
